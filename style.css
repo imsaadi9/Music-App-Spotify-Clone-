@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@700&display=swap');
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-top: 0;
+}
+#image-logo {
+    height: 50px;
+    width: 50px;
+    margin-top: 15px ;
+}
+#navbar {
+    margin-top: 0;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.774);
+    color: white;
+}
+#brand-name {
+    font-family: Gabarito;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+body{
+    margin: 0;
+    background-color: rgb(168, 168, 168);
+    height: 100vh;
+}
+.opt {
+    margin: 30px 20px;
+    position: relative;
+    left: 800px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.opt:hover {
+    margin: 30px 20px;
+    position: relative;
+    left: 800px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: grey;
+ }
+#bottom-box {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.534);
+    position: sticky;
+    top: 600px;
+    height: 55px;
+    padding-bottom: 10px;
+}
+#length {
+    width: 40%;
+    height: 2px;
+    color: black;
+}
+#first {
+    display: flex;
+    justify-content: center;
+}
+#control-buttons {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+#song-name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: rgb(0, 0, 0);
+    position: relative;
+    bottom: 35px;
+    width: 40%;
+    
+}
+h5 {
+    margin: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 400;
+}
+.abc {
+    background-color: #1ED760;
+    height: 25px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 50px;
+}
+.abc:hover {
+    background-color: rgba(255, 255, 255, 0.979);
+    height: 27px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 50px;
+}
+
+#first {
+     padding-top: 6px;
+     padding-bottom: 6px;
+     background-color: rgba(0, 0, 0, 0.795);
+}
+#gif {
+   height: 40px;
+   margin-left: 10px;
+   margin-top: 3px;
+   opacity: 1;
+   transition: opacity 0.6s ease-in;
+}
+#efg{
+    height: 70vh ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#content {
+    border-radius: 15px;
+    margin-top: 55px;
+    padding-bottom: 10px;
+    height: 85%;
+    width: 68%;
+    background-image: url(./noah-buscher---kD6McW60I-unsplash.jpg);
+    background-size: 950px 400px;
+
+}
+h1.playlist-heading{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.song-info {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.274);
+    width: 70%;
+    padding: 0 25px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    font-size: smaller;
+}
+.song-cover {
+    margin-top: 5px;
+    
+}
+.song-button {
+    margin-top: 5px;
+    background-color: rgba(240, 248, 255, 0.418);
+    border-radius: 30%;
+    height: 20px;
+}
+.song-button:hover {
+    margin-top: 5px;
+    background-color: rgba(240, 248, 255, 0.795);
+    border-radius: 0%;
+    height: 20px;
+}
+.song-names {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
